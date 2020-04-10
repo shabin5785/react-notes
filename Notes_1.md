@@ -1,1 +1,2 @@
 - React came out in 2013
+- people starting building big sites with jquery. Now to manage these big sites tools like backbonejs came up to organize. now it slowly progressed to single page apps,where as the app is loaded only once.
