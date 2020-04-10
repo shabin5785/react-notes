@@ -6,4 +6,4 @@
 
 2. Build website with small blocks. React is built around reusable components. So build small reusable components. So we can use components deveoped by others, and use component libraries with ready made components. Components can now be shared and reused. And easy to debug.These components are plain JS fns.
 
-3. Uni directional data flow.
+3. Uni directional data flow. react is built using state( data ) and components (jsx, js inside html).
