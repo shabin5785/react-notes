@@ -4,4 +4,4 @@
 **React Concepts**
 1. Dont touch DOM directly. React will do it for us. Changing dom direclty based on user input is Imperative approach. Problem with this approach is its difficult to see relationship between events and how components and events affect each other. React has a declarative approach. We tell react how our app looks like( a json object) and react will decide on how to update the DOM. So we give react the state of our app and react updates our app based on it. So we dont have to say do this and then do this and do this etc, but we tell react this is how my final app should look and react updates our app to reach that state.
 
-2. Build website with small blocks. 
+2. Build website with small blocks. React is built around reusable components. So build small reusable components
