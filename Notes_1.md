@@ -7,3 +7,5 @@
 2. Build website with small blocks. React is built around reusable components. So build small reusable components. So we can use components deveoped by others, and use component libraries with ready made components. Components can now be shared and reused. And easy to debug.These components are plain JS fns.
 
 3. Uni directional data flow. react is built using state( data ) and components (jsx, js inside html).React uses this to create a VirtualDOM ( a  huge JS object, like tree). VDOM is a blueprint on how to update actual dom.So react reads the VDOM and update DOM. Now VDOM updates when state changes. So an interaction changes State, react will react to it, combines new state with components and update dom using VDOM. so data only flows one way. The data can never flow other way. Data can flow down the VDOM tree. 
+
+4. React can work in any device/platform. To use react, we need a core react library and a platform specific react library that knows how to work with specific DOM
