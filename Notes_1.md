@@ -17,3 +17,6 @@ npx allows as to run a command
 - babel and webpack converts react code to vanilla JS that browser understands. Create react app spins up a project that has everything set up for us to start writing code now itself. react-scripts from create react app runs the babel and webpack to run and build the app. Building the react app takes files from src folder, runs webpack scripts and via that babel over it and builds it and puts in the public folder.
 
 - Using class component gives as access to state.
+
+- jsx has different names for some html parameters, like className for class. class is a differnt meaning in jsx.
+- jsx has {}, which means a js expression to be executed. Which can be a variable ,expression a fn etc.
