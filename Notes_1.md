@@ -11,3 +11,7 @@
 4. React can work in any device/platform. To use react, we need a core react library and a platform specific react library that knows how to work with specific DOM
 
 - Decide on what components that we need, where to keep state and what changes when state changes. This is a good design for a react app.
+
+npx allows as to run a command 
+
+- babel and webpack converts react code to vanilla JS that browser understands. Create react app spins up a project that has everything set up for us to start writing code now itself.
