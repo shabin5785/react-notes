@@ -23,3 +23,5 @@ npx allows as to run a command
 - we cannot modify state directly, only via set state. This is part of uni direction flow. Also this restriction allows react to monitor state changes and react to it.
 
 - modern SPA works like, load html , js and css. then just request data or call api as needed, us js to process the data and display it using html and css
+
+- naming an app jsx or js doesnt matter. both works. jsx is just a js file with html inside it. naming conventions might help us.
