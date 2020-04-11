@@ -21,3 +21,5 @@ npx allows as to run a command
 - jsx has different names for some html parameters, like className for class. class is a differnt meaning in jsx. jsx has equivalent to most html fns and parameters.
 - jsx has {}, which means a js expression to be executed. Which can be a variable ,expression a fn etc.
 - we cannot modify state directly, only via set state. This is part of uni direction flow. Also this restriction allows react to monitor state changes and react to it.
+
+- modern SPA works like, load html , js and css. then just request data or call api as needed, us js to process the data and display it using html and css
