@@ -45,3 +45,5 @@ npx allows as to run a command
 - state can be declared as a variable outisde constructor, as a class variable. It will work just as before.
 
 - everything inside {} is evaluted as javascript.
+
+- http://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/
