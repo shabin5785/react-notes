@@ -51,3 +51,5 @@ npx allows as to run a command
 - order of execution: constructor -> render -> comp did mount
 
 - update phase is when we have new props, or state changes or if we force update. Update doesnt remount component, only re render. So render is called during mount and update.
+
+- shouldComponentUpdate method can be used to decide if we want a component to update or not. It returns a boolean. Now why we need this? As state changes, react will update all components that is dependent on that state. Inlcuding all children. Now there may be some component that we know was not affected by state change, even though its a child. Now we can use shouldComponentUpdate in that component class to decide if it should update or not, using prevState and prevProps. 
