@@ -49,3 +49,5 @@ npx allows as to run a command
 - http://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/
 
 - order of execution: constructor -> render -> comp did mount
+
+- update phase is when we have new props, or state changes or if we force uppdate
