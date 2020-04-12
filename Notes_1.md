@@ -33,3 +33,5 @@ npx allows as to run a command
 - functional components dont have access to state or lifecylce methods. They are just a components taht are used to render html, get some props render component and be with it.
 
 - state changes can only one uni directional. It can only flow down and never flow up in heirarchy tree
+
+- careful with this reference.
