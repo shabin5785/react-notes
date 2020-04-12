@@ -25,3 +25,5 @@ npx allows as to run a command
 - modern SPA works like, load html , js and css. then just request data or call api as needed, us js to process the data and display it using html and css
 
 - naming an app jsx or js doesnt matter. both works. jsx is just a js file with html inside it. naming conventions might help us.
+
+- state usually lives in one component and is passed down as props.
