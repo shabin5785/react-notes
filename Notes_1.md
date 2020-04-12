@@ -34,4 +34,4 @@ npx allows as to run a command
 
 - state changes can only one uni directional. It can only flow down and never flow up in heirarchy tree
 
-- careful with this reference.WE can bind this context to a method.
+- careful with this reference.WE can bind this context to a method.Arrow fns have this context references the declared scope.
