@@ -47,3 +47,5 @@ npx allows as to run a command
 - everything inside {} is evaluted as javascript.
 
 - http://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/
+
+- order of execution: constructor -> render -> comp did mount
