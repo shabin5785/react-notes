@@ -39,3 +39,5 @@ npx allows as to run a command
 - we dont call a fn in an event handler, cause it will executed during render. We assign a fn to event handler and then its invoked during the event trigger.
 
 - as said earlier setState is async. And many parts of the app can change the state at same time. So when ever we use this.state or this.props to update state inside setState fn, we might not get the actual state. React cannot guarantee that. Instead we can use a fn instead of directly updating using this.state. That fn takes two arguments, which react passes to it automatically. First is prevState and other prevProps. Now instead of this.state, we can refer prevState, so that we always gets the current state, no matter where ever its updated. This is important in wherever we use this.state in setState method.
+
+- its recommended to add props to constructor method.
