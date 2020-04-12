@@ -26,4 +26,4 @@ npx allows as to run a command
 
 - naming an app jsx or js doesnt matter. both works. jsx is just a js file with html inside it. naming conventions might help us.
 
-- state usually lives in one component and is passed down as props. One state is passed down as attributes, it becomes props.
+- state usually lives in one component and is passed down as props. One state is passed down as attributes, it becomes props. Now as state changes all components that receive it as props, will be notified and may be re rendered. So be careful where we store state. WE dont want components taht have no effect on state change to be notified. 
