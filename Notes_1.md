@@ -50,4 +50,4 @@ npx allows as to run a command
 
 - order of execution: constructor -> render -> comp did mount
 
-- update phase is when we have new props, or state changes or if we force update. Update doesnt remount component, only re render.
+- update phase is when we have new props, or state changes or if we force update. Update doesnt remount component, only re render. So render is called during mount and update.
