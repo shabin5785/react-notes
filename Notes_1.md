@@ -29,3 +29,5 @@ npx allows as to run a command
 - state usually lives in one component and is passed down as props. One state is passed down as attributes, it becomes props. Now as state changes all components that receive it as props, will be notified and may be re rendered. So be careful where we store state. WE dont want components taht have no effect on state change to be notified. 
 
 - setstate is a async call. So to see change in state at once we setit, use the callback fn of setstate. Else if we log state, it might not yet be set.
+
+- functional components dont have access to state or lifecylce methods. They are just a components taht are used to render html, get some props render component and be with it.
