@@ -43,3 +43,5 @@ npx allows as to run a command
 - its recommended to add props to constructor method and inside it props.
 
 - state can be declared as a variable outisde constructor, as a class variable. It will work just as before.
+
+- everything inside {} is evaluted as javascript.
