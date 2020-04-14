@@ -77,3 +77,5 @@ match also has Params, which is the url parameters ( or route parameters)
 - react is a SPA and selectively loads components to provide routing. Now if we use normal a links, then entire app needs to be re rendered. So react router has a Link component ,that on clicking will be load only the component needed and not entire app.
 
 - it also has a history parameter. We can push a component to the history ( say on button click or load) and the page will be routed there ( component loaded ). This is another way compared to Link to navigate
+
+- history has a location parameter. That gives current page url. Now with no exact match and we load a url "/as/asd/asd", this might load home at "/", but history location param will be current complete url. This along with exact match can tell us the matching done and routing evaluation.
