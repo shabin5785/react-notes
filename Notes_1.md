@@ -72,3 +72,4 @@ Router also has a Switch component, that whenever it matches a route, will stop 
 url="/" c="home" and url="/abcd" Now / page will be matched when we go to both address if exact is false. But home component will be passed url "/" as its was caused the component to load.
 path is the path value expression used in router.
 Match has a parameter isexact, which is true when url and path is same. In above example of "/abcd" it will be false when address is "/abcd" as url and path is  not exact match.
+Params is the url parameters ( or route parameters)
