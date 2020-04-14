@@ -86,4 +86,4 @@ match also has Params, which is the url parameters ( or route parameters)
 
 - one solution for this to pass around history props via the hierarchy. But this is a bad practice knows as props drilling or props tunneling. Cause children in tree who doesnt need this property needs to pass it around as well. 
 
-- higher order component is a fn that takes a component a input and returns another component as the output.
+- higher order component is a fn that takes a component a input, modifies and  returns another component as the output.
