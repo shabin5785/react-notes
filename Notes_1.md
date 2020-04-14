@@ -59,3 +59,5 @@ npx allows as to run a command
 - for every jsx html element returned by react, there is style attribute using which we can set css type styles on the component.
 
 - react has no inbuilt routing. We have to use a separate library for that. react-router is a good choice.
+
+- earlier in Single Page App (SPA), routing was not comptable with browser history. So back and forward buttons doesnt work that well. But now browsers provide a history api to deal with it and modern routing libraries like react-router make use of that to mimic actual browser history management. 
