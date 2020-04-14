@@ -83,3 +83,5 @@ match also has Params, which is the url parameters ( or route parameters)
 - match property can be used for dynamic routing. Its value can be used to get the url that we actually need even though the page was loaded using some differnt url. We can then use match url to route as desired.
 
 - Route only passes all above route params to its first child.. and not to other childs in the heirarchy
+
+- one solution for this to pass around history props via the hierarchy. But this is a bad practice knows as props drilling or props tunneling.
