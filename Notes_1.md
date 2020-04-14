@@ -87,3 +87,5 @@ match also has Params, which is the url parameters ( or route parameters)
 - one solution for this to pass around history props via the hierarchy. But this is a bad practice knows as props drilling or props tunneling. Cause children in tree who doesnt need this property needs to pass it around as well. 
 
 - higher order component is a fn that takes a component a input, modifies and  returns another component as the output.
+
+- react dom router has a higher order component named withRouter. We can use this to wrap any child component that we need and enhance it to have router props and features.
