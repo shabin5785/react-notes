@@ -73,3 +73,5 @@ url="/" c="home" and url="/abcd" Now / page will be matched when we go to both a
 path is the path value expression used in router.
 Match has a parameter isexact, which is true when url and path is same. In above example of "/abcd" it will be false when address is "/abcd" as url and path is  not exact match.
 match also has Params, which is the url parameters ( or route parameters)
+
+- react is a SPA and selectively loads components to provide routing. Now if we use normal a links, then entire app needs to be re rendered. So react router has a Link component ,that on clicking will be load only the component needed and not entire app.
