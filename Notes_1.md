@@ -79,3 +79,5 @@ match also has Params, which is the url parameters ( or route parameters)
 - it also has a history parameter. We can push a component to the history ( say on button click or load) and the page will be routed there ( component loaded ). This is another way compared to Link to navigate
 
 - history has a location parameter. That gives current page url. Now with no exact match and we load a url "/as/asd/asd", this might load home at "/", but history location param will be current complete url. This along with exact match can tell us the matching done and routing evaluation.
+
+- match property can be used for dynamic routing. Its value can be used to get the url that we actually need even though the page was loaded using some differnt url. We can then use match url to route as desired.
