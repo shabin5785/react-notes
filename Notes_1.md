@@ -67,3 +67,6 @@ npx allows as to run a command
 - main parts of Router is exact, path and component. path is the url part to match and exact can be true or false. If true path needs to match exactly, else even if part of path matches component is loaded. This can cause multiple components having same base url to load. 
 
 Router also has a Switch component, that whenever it matches a route, will stop matching any more routes.
+
+- every router loaded component is passed three params. Url will be the url matched, and if multiple urls are matched for a page, the url passed will be the url till the match was found. Eg 
+url="/" c="home" and url="/abcd" Now / page will be matched when we go to both address if exact is false. But home component will be passed url "/" as its was caused the component to load.
