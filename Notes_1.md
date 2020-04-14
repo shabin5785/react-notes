@@ -63,3 +63,7 @@ npx allows as to run a command
 - earlier in Single Page App (SPA), routing was not comptable with browser history. So back and forward buttons doesnt work that well. But now browsers provide a history api to deal with it and modern routing libraries like react-router make use of that to mimic actual browser history management. 
 
 - pages in a react app for also components. But they are not typically reused. Components within this page components are usually reused. Like a login component added to multiple pages. Pages are linked together by router.
+
+- main parts of Router is exact, path and component. path is the url part to match and exact can be true or false. If true path needs to match exactly, else even if part of path matches component is loaded. This can cause multiple components having same base url to load. 
+
+Router also has a Switch component, that whenever it matches a route, will stop matching any more routes.
