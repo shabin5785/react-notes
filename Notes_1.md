@@ -84,4 +84,4 @@ match also has Params, which is the url parameters ( or route parameters)
 
 - Route only passes all above route params to its first child.. and not to other childs in the heirarchy
 
-- one solution for this to pass around history props via the hierarchy. But this is a bad practice knows as props drilling or props tunneling.
+- one solution for this to pass around history props via the hierarchy. But this is a bad practice knows as props drilling or props tunneling. Cause children in tree who doesnt need this property needs to pass it around as well. 
