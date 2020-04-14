@@ -57,3 +57,5 @@ npx allows as to run a command
 - we also has a componentWillUnmount method. Example is we conditionally hiding a component. So on hiding react will know component is no longer rendered, and will unmount and call lifecycle method before it.
 
 - for every jsx html element returned by react, there is style attribute using which we can set css type styles on the component.
+
+- react has no inbuilt routing. We have to use a separate library for that. react-router is a good choice.
