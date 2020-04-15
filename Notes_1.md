@@ -91,3 +91,5 @@ match also has Params, which is the url parameters ( or route parameters)
 - react dom router has a higher order component named withRouter. We can use this to wrap any child component that we need and enhance it to have router props and features.
 
 -The ReactComponent import name is special and tells Create React App that you want a React component that renders an SVG, rather than its filename
+
+
