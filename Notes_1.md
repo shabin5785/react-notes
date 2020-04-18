@@ -101,5 +101,7 @@ match also has Params, which is the url parameters ( or route parameters)
 
 - redux terms: Action is a user interaction. It goes through a reducer and creates an output. The output is state( or store) and creates new state. React then reacts to new state and updates DOM
 
+- Redux is based on the arch pattern called Flux Pattern.
+
 
 
