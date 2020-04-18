@@ -107,5 +107,7 @@ match also has Params, which is the url parameters ( or route parameters)
 
 - We can have redux and state within components together. 
 
+- If we pass an object as state to react ,react will check if object is new or chagned. Now if we change properties in an object and pass the object to react, react might not see it as a changed object and hence not update dom. So in reducers, instead of modifying current state, we create a new state object with modified values and pass to react.
+
 
 
