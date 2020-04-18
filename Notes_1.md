@@ -105,5 +105,7 @@ match also has Params, which is the url parameters ( or route parameters)
 
 - Redux allows the state to be more scalable.
 
+- We can have redux and state within components together. 
+
 
 
