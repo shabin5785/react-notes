@@ -113,5 +113,7 @@ match also has Params, which is the url parameters ( or route parameters)
 
 - reducers might need an initial state set so that they can work when loaded the first time.
 
+- every single reducer gets the action even if it has nothing to do with it. So we check action type before proceeding. So important to have default case to just return the state as itself.
+
 
 
