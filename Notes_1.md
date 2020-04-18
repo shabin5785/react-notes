@@ -93,3 +93,8 @@ match also has Params, which is the url parameters ( or route parameters)
 -The ReactComponent import name is special and tells Create React App that you want a React component that renders an SVG, rather than its filename
 
 
+### Redux
+
+- if we keep state at components, then we have to decide where to keep state, what components render when state changes, pass state between components etc. This becomes messy. Redux solves this by providing a single state management solution, so that we can decouple state from components.
+
+
