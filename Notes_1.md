@@ -115,5 +115,7 @@ match also has Params, which is the url parameters ( or route parameters)
 
 - every single reducer gets the action even if it has nothing to do with it. So we check action type before proceeding. So important to have default case to just return the state as itself.
 
+- connect, a higher order fn takes two args. First a fn( usually named mapStateToProps), is used to map state to props in a component. Second is used when a component doestn need state, but needs to send value as props to another component .This is also a fn, usually named mapDispatchToProps.
+
 
 
