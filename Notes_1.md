@@ -97,5 +97,7 @@ match also has Params, which is the url parameters ( or route parameters)
 
 - if we keep state at components, then we have to decide where to keep state, what components render when state changes, pass state between components etc. This becomes messy. Redux solves this by providing a single state management solution, so that we can decouple state from components.
 - Redux can be used outside react, its independant. Its pretty good at managing very large state.
+- Redux manages state based on three principles: A single source of truth, State is read only, and changes using pure function. 
+
 
 
