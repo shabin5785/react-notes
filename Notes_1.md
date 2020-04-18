@@ -103,5 +103,7 @@ match also has Params, which is the url parameters ( or route parameters)
 
 - Redux is based on the arch pattern called Flux Pattern. Its much better than the erstwhile MVC
 
+- Redux allows the state to be more scalable.
+
 
 
