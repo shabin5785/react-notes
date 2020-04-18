@@ -111,5 +111,7 @@ match also has Params, which is the url parameters ( or route parameters)
 
 - there can be middleware that receives action before reducer and can update/modify it. Like a logger for actions.
 
+- reducers might need an initial state set so that they can work when loaded the first time.
+
 
 
