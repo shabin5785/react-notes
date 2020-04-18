@@ -99,5 +99,7 @@ match also has Params, which is the url parameters ( or route parameters)
 - Redux can be used outside react, its independant. Its pretty good at managing very large state.
 - Redux manages state based on three principles: A single source of truth, State is read only, and changes using pure function. State is never modfied ,we create a new state for a change and we can go back to old state if required. Also pure fns means that the output is predictable. If we give it the same input always, we get the same output. 
 
+- redux terms: Action is a user interaction. It goes through a reducer and creates an output. The output is state( or store) and creates new state. React then reacts to new state and updates DOM
+
 
 
