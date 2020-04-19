@@ -118,3 +118,5 @@ match also has Params, which is the url parameters ( or route parameters)
 - connect, a higher order fn takes two args. First a fn( usually named mapStateToProps), is used to map state to props in a component. Second is used when a component doestn need state, but needs to send value as props to another component .This is also a fn, usually named mapDispatchToProps.
 
 - if state is a new object but all its properties are same with same value as old state, react will re render, cause its a new object. But if state is same object with different properties or values, react will not rerender.
+
+- reselect is a library that allows us to check state values and decide if new and old state have same value, then it can decide not to pass on new state , but send old state so that component is no re rendered .This is called as memoization. 
