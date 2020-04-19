@@ -122,3 +122,5 @@ match also has Params, which is the url parameters ( or route parameters)
 - reselect is a library that allows us to check state values and decide if new and old state have same value, then it can decide not to pass on new state by creating new object with same old values , but send old state so that component is no re rendered .This is called as memoization.
 
 - reselect "selects" part of state that we need and memoize it so that we can save on re renders
+
+- createStucturedSelector from reselect can automatically pass top level state to selectors.
