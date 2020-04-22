@@ -126,3 +126,5 @@ match also has Params, which is the url parameters ( or route parameters)
 - createStucturedSelector from reselect can automatically pass top level state to selectors.
 
 - if in connect method, if we dont pass mapDipatch fn as second arg, connect by default passes dispatch method to props. We can use this to create any action call, instead of using mapDispatchToProps.
+
+- if our state is readonly, we dont need any actions. Just reducer to pull required state will do
