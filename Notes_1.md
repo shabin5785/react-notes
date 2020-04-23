@@ -130,3 +130,5 @@ match also has Params, which is the url parameters ( or route parameters)
 - if our state is readonly, we dont need any actions. Just reducer to pull required state will do
 
 - if a component is direclty linked by Route, then it gets the Route variables. If not directly linked we need to use withRoute to get Route params to that component.
+
+- mapStateToProps has two arguments .First is state and second is own props of the component.
