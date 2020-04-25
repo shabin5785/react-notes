@@ -132,3 +132,9 @@ match also has Params, which is the url parameters ( or route parameters)
 - if a component is direclty linked by Route, then it gets the Route variables. If not directly linked we need to use withRoute to get Route params to that component.
 
 - mapStateToProps has two arguments .First is state and second is own props of the component.
+
+### CSS in JS
+
+- Traditioanl css has a global name space. We declare a class, and the moment its use, its imported to css namespace. So an one usnig the same classname later will get that styles. If we dont want this, we have to name the classes in a way to avoid. 
+
+- CSS in JS aims to solve this, but using JS to apply styles to components. 
