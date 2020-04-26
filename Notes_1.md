@@ -140,4 +140,4 @@ match also has Params, which is the url parameters ( or route parameters)
 - CSS in JS aims to solve this, but using JS to apply styles to components.  One such component is styledComponents
 
 ### Observable and Promise
-- with observable pattern, we can get notified when ever an event occurs and respond to it. With promise pattern, we can still get the data, but we need to trigger a request and get the data. 
+- with observable pattern, we can get notified when ever an event occurs and respond to it. With promise pattern, we can still get the data, but we need to trigger a request and get the data. Push vs Pull. Both are async.
