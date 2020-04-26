@@ -146,4 +146,4 @@ match also has Params, which is the url parameters ( or route parameters)
 
 - redux thunk intercepts only fns as actions and dispatches it. Normal actions are passed through.
 
-- double bang (!!) on any truthy or falsy value returns true or false. so !!null is false. !!8 is tue. 
+- double bang (!!) on any truthy or falsy value returns true or false. so !!null is false. !!8 is true.
