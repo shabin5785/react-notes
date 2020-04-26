@@ -141,3 +141,5 @@ match also has Params, which is the url parameters ( or route parameters)
 
 ### Observable and Promise
 - with observable pattern, we can get notified when ever an event occurs and respond to it. With promise pattern, we can still get the data, but we need to trigger a request and get the data. Push vs Pull. Both are async.
+
+- async data fetch i fine to be done in a component if that is the only component that needs the data. If anohter component also needs the data and those two components are loaded independantly, then we might be in a situation where, data fetching component is not loaded and other one is loaded, with no data. So we can move the fetch to a reducer fn so that we can make data fetch independant of component. 
