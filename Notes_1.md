@@ -147,3 +147,5 @@ match also has Params, which is the url parameters ( or route parameters)
 - redux thunk intercepts only fns as actions and dispatches it. Normal actions are passed through. Thunk takes the fn and invokes the fn, causing the dispatch action inside fns to be fired as a result. Thunk passes these dispatch to reducer.
 
 - double bang (!!) on any truthy or falsy value returns true or false. so !!null is false. !!8 is true.
+
+- redux saga is built using generator functions. 
