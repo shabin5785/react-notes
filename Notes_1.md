@@ -144,6 +144,6 @@ match also has Params, which is the url parameters ( or route parameters)
 
 - async data fetch i fine to be done in a component if that is the only component that needs the data. If anohter component also needs the data and those two components are loaded independantly, then we might be in a situation where, data fetching component is not loaded and other one is loaded, with no data. So we can move the fetch to a reducer fn so that we can make data fetch independant of component. 
 
-- redux thunk intercepts only fns as actions and dispatches it. Normal actions are passed through.
+- redux thunk intercepts only fns as actions and dispatches it. Normal actions are passed through. Thunk takes the fn and invokes the fn, causing the action inside fns to be fired as a result
 
 - double bang (!!) on any truthy or falsy value returns true or false. so !!null is false. !!8 is true.
