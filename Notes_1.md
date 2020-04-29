@@ -152,3 +152,4 @@ match also has Params, which is the url parameters ( or route parameters)
 
 **Redux Sagas**
 - take gives an option to get payload from an action. takeEvery doesnt provide this option.
+- we cannot restart sagas. 
