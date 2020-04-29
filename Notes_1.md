@@ -157,3 +157,5 @@ match also has Params, which is the url parameters ( or route parameters)
 - so take the generator fn complets and is not invoked again. in takevery the fn call to second generator fn prevents it from completing.
 
 - now if in a while loop in a take, if we put a delay call from saga, take cannto trigger next call to to fn inside while loop ( same as fn in takevery), until delay is completed .Its blocked till then.
+
+- now if taklatest will take the latest action and cancel all before that.
