@@ -155,3 +155,5 @@ match also has Params, which is the url parameters ( or route parameters)
 - we cannot restart sagas. so takeEvery and take runs only once. Takeevery has a fn as second arg, and it just regenerates that fn for every action captured. take doenst has such a fn, so it executes only once( when first run) and is not loaded again until entire app restarts. takevery so creates a never ending loop for listening to action and invoking second generator fn. So takevery is take inside a while loop. 
 
 - so take the generator fn complets and is not invoked again. in takevery the fn call to second generator fn prevents it from completing.
+
+- now if in a while loop in a take, if we put a delay call from saga, take cannto trigger next call to to fn inside while loop ( same as fn in takevery), until delay is completed .Its blocked till then.
