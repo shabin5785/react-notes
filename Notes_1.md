@@ -161,3 +161,5 @@ match also has Params, which is the url parameters ( or route parameters)
 - now if taklatest will take the latest action and cancel all before that.
 
 - put in saga ,put the data back into normal redux flow. Like proceed from saga method.
+
+- saga methods get the whole action passed to the action its listening to
