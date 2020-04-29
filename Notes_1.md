@@ -159,3 +159,5 @@ match also has Params, which is the url parameters ( or route parameters)
 - now if in a while loop in a take, if we put a delay call from saga, take cannto trigger next call to to fn inside while loop ( same as fn in takevery), until delay is completed .Its blocked till then.
 
 - now if taklatest will take the latest action and cancel all before that.
+
+- put in saga ,put the data back into normal redux flow. Like proceed from saga method.
