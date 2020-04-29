@@ -150,4 +150,5 @@ match also has Params, which is the url parameters ( or route parameters)
 
 - redux saga is built using generator functions. generator fn is pause and execute fn. It has yield keywork, upon which fn execution is stopped and curretn value is evaluted and returned out of fn. we have to call next() to continue execution.
 
-
+**Redux Sagas**
+- take gives an option to get payload from an action. takeEvery doesnt provide this option.
