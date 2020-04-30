@@ -170,4 +170,4 @@ match also has Params, which is the url parameters ( or route parameters)
 
 - one hooks component is useState that allows fn component to access state. useState gives as a variable and a setter for that variable inside state, while taking an initial value. So one useState call per state variable we need. It can be called and instantiated any number of times
 
-- another hook is useEffect. it allows us to fire sideeffects from fn components.
+- another hook is useEffect. it allows us to fire sideeffects from fn components. useEffect takes a fn that is invkoed when ever the component renders. So changing state , like using useState cause render and hence useEffect to invoked. 
