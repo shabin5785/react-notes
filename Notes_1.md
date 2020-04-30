@@ -174,4 +174,4 @@ match also has Params, which is the url parameters ( or route parameters)
 
 - useEffect with no props to watch, might cause infite reloading. useEffect fire on comp load, we does some operation, updates state, which cause rerender, which invokes useEffect again, we again does the operation and the cycle continues. So always use the props for which we listen for changes to fire useEffect to control this. 
 
-- we cannot call useEffect inside a conditional
+- we cannot call useEffect inside a conditional. Add conditioanl expression inside useEffect instead.
