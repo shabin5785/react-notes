@@ -168,3 +168,4 @@ match also has Params, which is the url parameters ( or route parameters)
 
 - hooks is a way to write functional components, that give them more features. It can be used only with fn components and not in class components.
 
+- one hooks component is useState that allows fn component to access state.
