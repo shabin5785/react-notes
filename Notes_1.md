@@ -177,3 +177,5 @@ match also has Params, which is the url parameters ( or route parameters)
 - we cannot call useEffect inside a conditional. Add conditioanl expression inside useEffect instead.
 
 - check how componets re renders , with parent component rendering etc. espeically with useEffect.
+
+- we can return a fn from useEffect, whcih is a cleanup  method called when component unmount. So similar to componentDidUnmount
