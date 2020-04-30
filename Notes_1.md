@@ -169,3 +169,5 @@ match also has Params, which is the url parameters ( or route parameters)
 - hooks is a way to write functional components, that give them more features. It can be used only with fn components and not in class components.
 
 - one hooks component is useState that allows fn component to access state. useState gives as a variable and a setter for that variable inside state, while taking an initial value. So one useState call per state variable we need. It can be called and instantiated any number of times
+
+- another hook is useEffect. 
