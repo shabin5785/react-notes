@@ -176,4 +176,4 @@ match also has Params, which is the url parameters ( or route parameters)
 
 - we cannot call useEffect inside a conditional. Add conditioanl expression inside useEffect instead.
 
-- check how componets re renders , with parent component rendering etc.
+- check how componets re renders , with parent component rendering etc. espeically with useEffect.
