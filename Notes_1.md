@@ -183,3 +183,9 @@ match also has Params, which is the url parameters ( or route parameters)
 - we can write custom hooks. Its just a common function that generalizes the useEffect and useState method taht we write for similar components. The generic hooks accepts paramerts like normal fns, and use it to change the way effect or state is used. We then use this generic hook in our other components instead of repeating the same code.
 
 - useREducer hook brings the reducer state to component, in cases where we need complex state management. useReducer takes an reducer fn( which is like an usual redux fn that has a switch statement) and an initial state. It returns the state and dispatch. We then create fns that create actions and use dispatch to dispatch those fns .Reducer then accepts the actions, uses the reducer fn to update the state. State update causes a re render , thereby updating the application.
+
+**GraphQL**
+
+- REST is very verbose. Like to find comments of a post of a user, we usually make three rest requests. A user fetch req, a user posts fetch request based on userid and a comment fetch request for a post of a user. Also during this process we end up receiving a bunch of data taht we dont care about and have to discard
+
+- Graphql is a unified interface for getting data. It exposes a single end point, against which we can make a query or a mutation .The request is specified in JSON object
