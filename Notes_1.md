@@ -179,3 +179,5 @@ match also has Params, which is the url parameters ( or route parameters)
 - check how componets re renders , with parent component rendering etc. espeically with useEffect.
 
 - we can return a fn from useEffect, whcih is a cleanup  method called when component unmount. So similar to componentDidUnmount
+
+- we can write custom hooks. Its just a common function that generalizes the useEffect and useState method taht we write for similar components. The generic hooks accepts paramerts like normal fns, and use it to change the way effect or state is used. We then use this generic hook in our other components instead of repeating the same code.
