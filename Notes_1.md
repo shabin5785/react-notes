@@ -192,4 +192,6 @@ match also has Params, which is the url parameters ( or route parameters)
 
 - so graphql need only one query to fetch all comments. Also we tell graphql what fields to return. Like a db query for rest end points.So we can fetch comments of a post in a single query. The relationship is built in graphql, like a relational db.
 
-- apollo cache results from graphql. 
+- apollo cache results from graphql
+
+- apollo and graphql can replace redux. We dont need to store state in redux to store state. 
