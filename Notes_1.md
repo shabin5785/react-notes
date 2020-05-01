@@ -190,4 +190,4 @@ match also has Params, which is the url parameters ( or route parameters)
 
 - Graphql is a unified interface for getting data. It exposes a single end point, against which we can make a query or a mutation .The request is specified in JSON object
 
-- so graphql need only one query to fetch all comments. Also we tell graphql what fields to return. Like a db query for rest end points.
+- so graphql need only one query to fetch all comments. Also we tell graphql what fields to return. Like a db query for rest end points.So we can fetch comments of a post in a single query. The relationship is built in graphql, like a relational db.
