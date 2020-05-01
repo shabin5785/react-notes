@@ -189,3 +189,5 @@ match also has Params, which is the url parameters ( or route parameters)
 - REST is very verbose. Like to find comments of a post of a user, we usually make three rest requests. A user fetch req, a user posts fetch request based on userid and a comment fetch request for a post of a user. Also during this process we end up receiving a bunch of data taht we dont care about and have to discard
 
 - Graphql is a unified interface for getting data. It exposes a single end point, against which we can make a query or a mutation .The request is specified in JSON object
+
+- so graphql need only one query to fetch all comments. Also we tell graphql what fields to return. Like a db query for rest end points.
