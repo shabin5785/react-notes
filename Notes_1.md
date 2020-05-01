@@ -194,4 +194,6 @@ match also has Params, which is the url parameters ( or route parameters)
 
 - apollo cache results from graphql
 
-- apollo and graphql can replace redux. We dont need to store state in redux to store state. 
+- apollo and graphql can replace redux. We dont need to store state in redux to store state
+
+- graphql can store local state as well, not just fetch remote data. We can use local cache to store, front end persistant store. Only thing is we need to use same query and mutation to interact with local cache. 
