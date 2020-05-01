@@ -182,4 +182,4 @@ match also has Params, which is the url parameters ( or route parameters)
 
 - we can write custom hooks. Its just a common function that generalizes the useEffect and useState method taht we write for similar components. The generic hooks accepts paramerts like normal fns, and use it to change the way effect or state is used. We then use this generic hook in our other components instead of repeating the same code.
 
-- useREducer hook brings the reducer state to component, in cases where we need complex state management.
+- useREducer hook brings the reducer state to component, in cases where we need complex state management. useReducer takes an reducer fn( which is like an usual redux fn that has a switch statement) and an initial state. It returns the state and dispatch. 
