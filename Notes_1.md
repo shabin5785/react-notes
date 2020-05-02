@@ -236,6 +236,9 @@ match also has Params, which is the url parameters ( or route parameters)
 
 ### Progressive Web Apps
 
+- https is mandatory for PWA
+
+- it needs an app manifest. 
 
 
 
