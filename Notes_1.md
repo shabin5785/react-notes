@@ -222,7 +222,7 @@ match also has Params, which is the url parameters ( or route parameters)
 
 - but initial load of a memoized componet is slower than normal load. So there is a tradeoff.
 
-- React memo uses shallow comparision. So if we create new object every render, and even if value is same, react memo cannot find the difference as obejcts are different.
+- React memo uses shallow comparision. So if we create new object every render, and even if value is same, react memo cannot find the difference as obejcts are different. So careful with inline array and inline functions
 
 
 
