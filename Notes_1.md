@@ -202,4 +202,4 @@ match also has Params, which is the url parameters ( or route parameters)
 
 **React Performance**
 
-- react lazy alllows us to load components when needed only.
+- react lazy alllows us to load components when needed only. Its used with Route which helps to load components when that Route is loaded. 
