@@ -209,3 +209,13 @@ match also has Params, which is the url parameters ( or route parameters)
 - to overcome this we wrap lazy loaded route in a Suspense component. Suspence loads an async component and take a fallback argument. Fallback is any valid html component taht is displayed until lazy loaded componet is ready.
 
 - we could wrap individual componetns other than inside Routes in lazy as well. Depends on how big a component is that to need this.
+
+**Error Handling**
+- we write a class component that has a static method getDerivedStateFromError. We then wrap this componetn around the components that we need to error handle. When an error occurs in its children, the static method is invoked. We can then process error and setState. Also from that components render method, we can return a certain component in case of error. we can have many error handling components, with differnt error views and wrap then around differnt routes/components as we need. 
+
+- Also another life cylce method componentDidCatch allows us to get error and info about any component thrwing this error. 
+
+- A component with these two life cycle methods is allowed to be an error bounday or error handling component.
+
+
+
