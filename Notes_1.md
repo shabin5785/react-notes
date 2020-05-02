@@ -240,7 +240,7 @@ match also has Params, which is the url parameters ( or route parameters)
 
 - it needs an app manifest. THis helps with making the PWA similar to native apps, such as add to home screen option, icons of different sizes, splash screen etc.
 
-- service workers run in background to do tasks we need, like background sync, push notificaiotns, offline capabilities etc. Need to check if browser supports service workers and if yes, register it to use it. Service workers intercept requests to network and check if need to forward request to netwrk or local cache api and serve the request. 
+- service workers run in background to do tasks we need, like background sync, push notificaiotns, offline capabilities etc. Need to check if browser supports service workers and if yes, register it to use it. Service workers intercept requests to network and check if need to forward request to netwrk or local cache api and serve the request. And do other actions with network actions.
 
 
 
