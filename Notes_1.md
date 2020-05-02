@@ -205,3 +205,5 @@ match also has Params, which is the url parameters ( or route parameters)
 - react lazy alllows us to load components when needed only. Its used with Route which helps to load components when that Route is loaded. We use lazy to import components using promise. When these components are loaded to Router, it will load it when required only.
 
 - now lazy is async load. So there might be an issue when we request the page, it  might not be loaded at once, leading to an error or empty page or no component.
+
+- to overcome this we wrap lazy loaded route in a Suspense component. Suspence loads an async component and take a fallback argument. Fallback is any valid html component taht is displayed until lazy loaded componet is ready.
