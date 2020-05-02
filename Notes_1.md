@@ -230,5 +230,7 @@ match also has Params, which is the url parameters ( or route parameters)
 
 - useMemo hook memoizes the fn and the return value as well. It caches the return value of a fn. So when we call same fn the same args, it returns the cached value. useCallback only returns the fn defintion so that we need to invoke the fn every time, even though its the same fn. 
 
+- use compression( like gzip) to reduce js size. 
+
 
 
