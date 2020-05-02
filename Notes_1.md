@@ -220,5 +220,7 @@ match also has Params, which is the url parameters ( or route parameters)
 
 - React.memo can be used to memoize a component so that it doenst re render itself when its props doest change, but the state of teh class its part of changes. Same as using shouldComponentUpdate to decide whether to update or not.
 
+- but initial load of a memoized componet is slower than normal load. So there is a tradeoff.
+
 
 
