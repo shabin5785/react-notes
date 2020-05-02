@@ -232,5 +232,7 @@ match also has Params, which is the url parameters ( or route parameters)
 
 - use compression( like gzip) to reduce js size. 
 
+- React has a inbuilt profiler component that we can wrap components and get profiled info about that component.
+
 
 
