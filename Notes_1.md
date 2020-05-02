@@ -199,3 +199,5 @@ match also has Params, which is the url parameters ( or route parameters)
 - graphql can store local state as well, not just fetch remote data. We can use local cache to store, front end persistant store. Only thing is we need to use same query and mutation to interact with local cache. So apollo+graphql can replace redux.
 
 - apollo has a resolver function, that either uses local cache and returns data or gets external data via graphql query and update local cache adn then provide data.
+
+**React Performance**
