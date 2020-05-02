@@ -238,7 +238,7 @@ match also has Params, which is the url parameters ( or route parameters)
 
 - https is mandatory for PWA
 
-- it needs an app manifest. 
+- it needs an app manifest. THis helps with making the PWA similar to native apps.
 
 
 
