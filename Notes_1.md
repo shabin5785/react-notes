@@ -201,3 +201,5 @@ match also has Params, which is the url parameters ( or route parameters)
 - apollo has a resolver function, that either uses local cache and returns data or gets external data via graphql query and update local cache adn then provide data.
 
 **React Performance**
+
+- react lazy alllows us to load components when needed only.
