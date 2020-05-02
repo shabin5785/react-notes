@@ -228,5 +228,7 @@ match also has Params, which is the url parameters ( or route parameters)
 
 - inline functions can be re generated for every render. To avoid this use useCallback hook to wrap the fns. This callback returns the same function is the argument of fn doesnt change so we can avoid creating new fns unnecessarly
 
+- useMemo hook memoizes the fn and the return value as well. It caches the return value of a fn. So when we call same fn the same args, it returns the cached value. useCallback only returns the fn defintion so that we need to invoke the fn every time, even though its the same fn. 
+
 
 
