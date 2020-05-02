@@ -226,5 +226,7 @@ match also has Params, which is the url parameters ( or route parameters)
 
 - using reselct the components are already memoized as reselect checks the props to decide if it needs updating. 
 
+- inline functions can be re generated for every render. To avoid this use useCallback hook to wrap the fns. This callback returns the same function is the argument of fn doesnt change so we can avoid creating new fns unnecessarly
+
 
 
