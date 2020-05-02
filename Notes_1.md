@@ -207,3 +207,5 @@ match also has Params, which is the url parameters ( or route parameters)
 - now lazy is async load. So there might be an issue when we request the page, it  might not be loaded at once, leading to an error or empty page or no component.
 
 - to overcome this we wrap lazy loaded route in a Suspense component. Suspence loads an async component and take a fallback argument. Fallback is any valid html component taht is displayed until lazy loaded componet is ready.
+
+- we could wrap individual componetns other than inside Routes in lazy as well. Depends on how big a component is that to need this.
