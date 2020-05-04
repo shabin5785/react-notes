@@ -247,4 +247,6 @@ match also has Params, which is the url parameters ( or route parameters)
 
 - in creat react app, the browser builds and render the components. Nextjs is a react f/w that does this using server side rendering. 
 
-- both above are dynamically generating pages. But gatsby is static site generator. SO build and push it to a server and serve frm  there,
+- both above are dynamically generating pages. But gatsby is static site generator. SO build and push it to a server and serve frm there.
+
+- netlify provides a free optin to deploy sites and is linked to github
