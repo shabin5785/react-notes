@@ -244,3 +244,5 @@ match also has Params, which is the url parameters ( or route parameters)
 
 ### Gatsby
 - its a f/w writtern in react
+
+- in creat react app, the browser builds and render the components. Nextjs is a react f/w that does this using server side rendering. 
