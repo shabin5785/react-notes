@@ -242,5 +242,5 @@ match also has Params, which is the url parameters ( or route parameters)
 
 - service workers run in background to do tasks we need, like background sync, push notificaiotns, offline capabilities etc. Need to check if browser supports service workers and if yes, register it to use it. Service workers intercept requests to network and check if need to forward request to netwrk or local cache api and serve the request. And do other actions with network actions.
 
-
-
+### Gatsby
+- its a f/w writtern in react
