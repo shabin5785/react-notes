@@ -5,4 +5,4 @@
 
 - controlled component in react is one where react is the source of truth for the component value. and not the HTML.
 
-- this is evaluated from where the method is called from and not by the method itself
+- **this** is evaluated from where the method is called from and not by the method itself. If we want it to be based on fn itself, make it an arrow fn.
