@@ -10,3 +10,5 @@
 - we cannot pass props upwards from child to parent. Only downwards. To solve this, we can pass a fn from parent to child and child will invoke it when needed, sending props to parent.
 
 - React ref gives us access to DOM elements. Rather than refering them using DOM selectors.
+
+- we need to put only the data that changes inside state.
