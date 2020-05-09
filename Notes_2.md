@@ -7,4 +7,6 @@
 
 - **this** is evaluated from where the method is called from and not by the method itself. If we want it to be based on fn itself, make it an arrow fn. Two ways for this: in event change method, use a arrow call back fn to invoke our normal fn, or in event change method invoke arrow fn.
 
-- we cannot pass props upwards from child to parent. Only downwards. To solve this, we can pass a fn from parent to child and child will invoke it when needed, sending props to parent. 
+- we cannot pass props upwards from child to parent. Only downwards. To solve this, we can pass a fn from parent to child and child will invoke it when needed, sending props to parent.
+
+- React ref gives us access to DOM elements. Rather than refering them using DOM selectors.
