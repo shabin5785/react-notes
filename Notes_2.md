@@ -12,3 +12,5 @@
 - React ref gives us access to DOM elements. Rather than refering them using DOM selectors.
 
 - we need to put only the data that changes inside state.
+
+- Redux flow: Action creator -> action -> dispatcher -> reducer -> state
