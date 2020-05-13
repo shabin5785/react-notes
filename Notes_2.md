@@ -18,3 +18,5 @@
 - actions must be a plain js object. So we cannot put async await in action creator. Use middleware for async code there.
 
 - reducers should never return value undefined
+
+- every time a reducer is called, its invoked with a state value equal to previous call returned state value. So for first time its undefined.
