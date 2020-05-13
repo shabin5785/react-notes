@@ -21,4 +21,4 @@
 
 - every time a reducer is called, its invoked with a state value equal to previous call returned state value. So for first time its undefined. With teh way reducer in redux is coded, it detects a change by comparing prevstate with newstate .Its an object comparision .So to make haschanged true need to return a new state object. So if we mutate prevstate and return it as new object, the haschanged comparison becomes false as prev and curretn state are same. So always create a new object as new state and copy prev state to it and return.
 
-- trying to memoize an async fn in action creator is complicated. Use the pattern for that.
+- trying to memoize an async fn in action creator is complicated. Use the pattern for that. So instead of memoizing action creator fn or dispatch fn, call a memoized fn from action creator.
