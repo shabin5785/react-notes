@@ -15,4 +15,6 @@
 
 - Redux flow: Action creator -> action -> dispatcher -> reducer -> state
 
-- actions must be a plain js object. So we cannot put async await in action creator. Use middleware for async code there. 
+- actions must be a plain js object. So we cannot put async await in action creator. Use middleware for async code there.
+
+- reducers should never return value undefined
