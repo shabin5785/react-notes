@@ -31,6 +31,9 @@
 
 - if we link react components wiht <a> tag, then react will make a request for new page for every link, causing exist html page to be dumped, new page requested( same as dumped page) and react scripts run. So avoid using it and link using react components Link.
 
--React router has : browser router( look at url), hashrouter( look after hash automaticaly put by react after url) and memory router ( no url used for navigation. react router keeps url in memory and wont chagne url)
+- React router has : browser router( look at url), hashrouter( look after hash automaticaly put by react after url) and memory router ( no url used for navigation. react router keeps url in memory and wont chagne url)
+  
+  
+  - if we ask react router for a route taht doesnt exist, it will check in public folder for a file named like that. if it cannot find it it will return the index page. This is what we get when we normally get an error for unkown route in traditioanl apps. But react serves index html
   
  
