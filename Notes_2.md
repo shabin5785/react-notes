@@ -34,6 +34,6 @@
 - React router has : browser router( look at url), hashrouter( look after hash automaticaly put by react after url) and memory router ( no url used for navigation. react router keeps url in memory and wont chagne url)
   
   
-  - if we ask react router for a route taht doesnt exist, it will check in public folder for a file named like that. if it cannot find it it will return the index page. This is what we get when we normally get an error for unkown route in traditioanl apps. But react serves index html
+  - if we ask react router for a route. it will check in public folder for a file named like that. if it cannot find it it will return the index page.  normally get an error for unkown route in traditioanl apps. But react serves index html. Now index html has a browser route for that route and only that component is rendered. 
   
  
