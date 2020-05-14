@@ -24,3 +24,5 @@
 - trying to memoize an async fn in action creator is complicated. Use the pattern for that. So instead of memoizing action creator fn or dispatch fn, call a memoized fn from action creator.
 
 - react-router-dom is the package for routing. react-router is the core pacakge and dom one is to be used for web. similary we have react-router-native 
+
+- we can have duplicate routes in react router, It will match both and will show both components.
