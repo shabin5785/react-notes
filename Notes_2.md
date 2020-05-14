@@ -27,4 +27,4 @@
 
 - we can have duplicate routes in react router, It will match both and will show both components.
 
-- react router checks the value from url ( extracted path) contains the router match path. So without exact multiple react router paths will be contained in url , like "/" and "/abc", and "/abc/5" for the url me.com/abc/5.
+- react router checks the value from url ( extracted path) contains the router match path. So without exact multiple react router paths will be contained in url , like "/" and "/abc", and "/abc/5" for the url me.com/abc/5. exact will check for an exact match.
