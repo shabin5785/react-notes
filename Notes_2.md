@@ -29,4 +29,4 @@
 
 - react router checks the value from url ( extracted path) contains the router match path. So without exact multiple react router paths will be contained in url , like "/" and "/abc", and "/abc/5" for the url me.com/abc/5. exact will check for an exact match.
 
-- if we link react components wiht <a> tag, then react will make a request for new page for every link, causing exist html page to be dumped, new page requested( same as dumped page) and react scripts run. So avoid using it and link using react components. 
+- if we link react components wiht <a> tag, then react will make a request for new page for every link, causing exist html page to be dumped, new page requested( same as dumped page) and react scripts run. So avoid using it and link using react components Link.
