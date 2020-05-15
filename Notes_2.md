@@ -38,3 +38,5 @@
   
  
   - redux form makes away with boiler plate code for wiring a form to redux and the actions. it handles it automatically in the backend. the key for redux-form in reducer needs to be form.
+  
+  - in redux-form, the validate and fields are linked by an error obejct with keys same as field names.
