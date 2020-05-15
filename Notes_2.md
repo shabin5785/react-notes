@@ -37,4 +37,4 @@
   - if we ask react router for a route taht doesnt exist, it will check in public folder for a file named like that. if it cannot find it it will return the index page. This is what we get when we normally get an error for unkown route in traditioanl apps. But react serves index html
   
  
-  - redux form makes away with boiler plate code for wiring a form to redux and the actions. it handles it automatically in the backend.
+  - redux form makes away with boiler plate code for wiring a form to redux and the actions. it handles it automatically in the backend. the key for redux-form in reducer needs to be form.
