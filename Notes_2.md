@@ -43,4 +43,4 @@
   
   - in redux-form, the validate and fields are linked by an error obejct with keys same as field names.
   
-  - browserrouter listens to changes in history object. When history object updates, router react to that change and cahgnes route. Now getting reference to history object is easy in a component, but quite difficult outside that, part of which is due to the reason that history object is created by browserrouter.
+  - browserrouter listens to changes in history object. When history object updates, router react to that change and cahgnes route. Now getting reference to history object is easy in a component, but quite difficult outside that, part of which is due to the reason that history object is created by browserrouter. To overcome this, we can create history object ourselves and nt allow browserrouter to create and control it.
