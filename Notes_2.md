@@ -42,3 +42,5 @@
   - redux form makes away with boiler plate code for wiring a form to redux and the actions. it handles it automatically in the backend. the key for redux-form in reducer needs to be form.
   
   - in redux-form, the validate and fields are linked by an error obejct with keys same as field names.
+  
+  - browserrouter listens to changes in history object. When history object updates, router react to that change and cahgnes route. Now getting reference to history object is easy in a component, but quite difficult outside that, part of which is due to the reason that history object is created by browserrouter.
