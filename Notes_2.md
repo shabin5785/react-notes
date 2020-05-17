@@ -52,3 +52,5 @@
   - we create portal using ReactDOM similar to creating root component. Now rendering portal against body as root causes the entire body to be replaced. So we usually create a placeholer in index.html and render portal under that.
   
   - in nested elements, if an event occurs and is not handled by js, it bubbles up in heirarchy until its handled. We can call stop propagation on the event to prevent it bubble up.
+  
+  - We cannot return jsx elements without surrounding div or parent element. Its not valid and throws error. WE can use React.Fragment to overcome this.
