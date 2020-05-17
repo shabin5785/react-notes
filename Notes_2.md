@@ -60,3 +60,5 @@
   - we use contextType static field in class to link context object.
   
   - each provider in context creates its own stream or storage. 
+  
+  - we can get value from context using this.context or by using a consumer 
