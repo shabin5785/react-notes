@@ -54,3 +54,5 @@
   - in nested elements, if an event occurs and is not handled by js, it bubbles up in heirarchy until its handled. We can call stop propagation on the event to prevent it bubble up.
   
   - We cannot return jsx elements without surrounding div or parent element. Its not valid and throws error. WE can use React.Fragment to overcome this.
+  
+  - Using react context, we can communicate with any prarent-child, by passing nested layers in between them. Wihtout that we need to pass props through all nested layers to reach lower level.
