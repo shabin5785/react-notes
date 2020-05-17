@@ -50,3 +50,5 @@
   - usually react components are heirachially arranged. One below another in a tree structure. Using a portal we can render a component as a child of some other component , like a child of root. So we haev multipe childs for root instead of usual one. Commonly used for popup or modals.
   
   - we create portal using ReactDOM similar to creating root component. Now rendering portal against body as root causes the entire body to be replaced. So we usually create a placeholer in index.html and render portal under that.
+  
+  - in nested elements, if an event occurs and is not handled by js, it bubbles up in heirarchy until its handled.
