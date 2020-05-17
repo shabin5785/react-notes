@@ -45,4 +45,6 @@
   
   - browserrouter listens to changes in history object. When history object updates, router react to that change and cahgnes route. Now getting reference to history object is easy in a component, but quite difficult outside that, part of which is due to the reason that history object is created by browserrouter. To overcome this, we can create history object ourselves and nt allow browserrouter to create and control it.
   
- - its better for each component to own its own data generation and fetching. 
+ - its better for each component to own its own data generation and fetching.
+  
+  - usually react components are heirachially arranged. One below another in a tree structure. Using a portal we can render a component as a child of some other component , like a child of root. So we haev multipe childs for root instead of usual one. Commonly used for popup or dialogs.
