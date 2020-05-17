@@ -56,3 +56,5 @@
   - We cannot return jsx elements without surrounding div or parent element. Its not valid and throws error. WE can use React.Fragment to overcome this.
   
   - Using react context, we can communicate with any prarent-child, by passing nested layers in between them. Wihtout that we need to pass props through all nested layers to reach lower level. Context object can be though of as a stream connecting source and provider. We can push data to it and get from it. 
+  
+  - we use contextType static field in class to link context object.
