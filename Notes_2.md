@@ -62,3 +62,5 @@
   - each provider in context creates its own stream or storage. 
   
   - we can get value from context using this.context or by using a consumer. consumers are used when we need to get value from multiple contexts. this.context is used when there is only one context
+  
+  - context is not a replacement for redux
