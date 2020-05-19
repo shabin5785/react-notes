@@ -72,3 +72,5 @@
   - by default useEffect is called everytime a component is loaded or updated. We can pass a variable to the useEffect array to monitor, so taht fn is invoked only when the variabel changes.
   
   - if we pass an empty array to useEffect, its caled only once ( componentDidMount), cause value in array never cahnges. 
+  
+  - also useEffect compares object equality. If we return an object in useEffect array, the object is different each time so comparision causes useEffect to be invoked .
