@@ -74,3 +74,5 @@
   - if we pass an empty array to useEffect, its caled only once ( componentDidMount), cause value in array never cahnges. 
   
   - also useEffect compares object equality. If we return an object in useEffect array, the object is different each time so comparision causes useEffect to be invoked .
+  
+  - useEffect cannot return an async fn or promise. But it can call an async fn or use an immediately invoked async fn
