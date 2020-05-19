@@ -65,4 +65,4 @@
   
   - context is not a replacement for redux
   
-  - hooks brings component state and life cycle fns to functional components.
+  - hooks brings component state and life cycle fns to functional components. Hooks allows to better share code between components and code reuse between them. Its better in this case than a class based component.
