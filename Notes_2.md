@@ -70,3 +70,5 @@
   - useEffect can take care of both componentDidmount and componentDidupdate
   
   - by default useEffect is called everytime a component is loaded or updated. We can pass a variable to the useEffect array to monitor, so taht fn is invoked only when the variabel changes.
+  
+  - if we pass an empty array to useEffect, its caled only once ( componentDidMount), cause value in array never cahnges. 
