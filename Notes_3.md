@@ -3,3 +3,5 @@
 -React DOM compares the element and its children to the previous one, and only applies the DOM updates necessary to bring the DOM to the desired state.
 
 - Always start component names with a capital letter.React treats components starting with lowercase letters as DOM tags. For example, <div /> represents an HTML div tag, but <Welcome /> represents a component and requires Welcome to be in scope.
+
+- Whether you declare a component as a function or a class, it must never modify its own props.
