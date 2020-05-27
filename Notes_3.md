@@ -17,3 +17,5 @@
 - in react event handler, you cannot return false to prevent default behavior in React. You must call preventDefault explicitly
 
 - The problem with arrow fn for this binding is that a different callback is created each time the component renders. In most cases, this is fine. However, if this callback is passed as a prop to lower components, those components might do an extra re-rendering. We generally recommend binding in the constructor or using the class fields syntax, to avoid this sort of performance problem.
+
+- In rare cases you might want a component to hide itself even though it was rendered by another component. To do this return null instead of its render output.
