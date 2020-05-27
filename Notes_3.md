@@ -4,4 +4,4 @@
 
 - Always start component names with a capital letter.React treats components starting with lowercase letters as DOM tags. For example, <div /> represents an HTML div tag, but <Welcome /> represents a component and requires Welcome to be in scope.
 
-- Whether you declare a component as a function or a class, it must never modify its own props.
+- Whether you declare a component as a function or a class, it must never modify its own props. All React components must act like pure functions with respect to their props.
