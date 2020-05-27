@@ -19,3 +19,5 @@
 - The problem with arrow fn for this binding is that a different callback is created each time the component renders. In most cases, this is fine. However, if this callback is passed as a prop to lower components, those components might do an extra re-rendering. We generally recommend binding in the constructor or using the class fields syntax, to avoid this sort of performance problem.
 
 - In rare cases you might want a component to hide itself even though it was rendered by another component. To do this return null instead of its render output.
+
+- We can combine the two by making the React state be the “single source of truth”. Then the React component that renders a form also controls what happens in that form on subsequent user input. An input form element whose value is controlled by React in this way is called a “controlled component”.
