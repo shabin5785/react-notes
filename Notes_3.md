@@ -13,3 +13,5 @@
 -State Updates are Merged. When you call setState(), React merges the object you provide into the current state.
 
 -Neither parent nor child components can know if a certain component is stateful or stateless, and they shouldn’t care whether it is defined as a function or a class. This is why state is often called local or encapsulated. It is not accessible to any component other than the one that owns and sets it.
+
+- in react event handler, you cannot return false to prevent default behavior in React. You must call preventDefault explicitly
