@@ -15,3 +15,5 @@
 -Neither parent nor child components can know if a certain component is stateful or stateless, and they shouldn’t care whether it is defined as a function or a class. This is why state is often called local or encapsulated. It is not accessible to any component other than the one that owns and sets it.
 
 - in react event handler, you cannot return false to prevent default behavior in React. You must call preventDefault explicitly
+
+- The problem with arrow fn for this binding is that a different callback is created each time the component renders. In most cases, this is fine. However, if this callback is passed as a prop to lower components, those components might do an extra re-rendering. We generally recommend binding in the constructor or using the class fields syntax, to avoid this sort of performance problem.
