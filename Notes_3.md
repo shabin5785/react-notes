@@ -25,3 +25,5 @@
 - Starting with ECMAScript 2015, the object initializer syntax also supports computed property names. That allows you to put an expression in brackets [], that will be computed and used as the property name. Value in [] will be computed to find variabe name and then initialize
 
 - In React, sharing state is accomplished by moving it up to the closest common ancestor of the components that need it. This is called “lifting state up”.
+
+- no inheritance in react
