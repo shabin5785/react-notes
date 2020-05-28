@@ -149,7 +149,7 @@ Only call Hooks from React function components. Don’t call Hooks from regular 
   
 - By using useEffect Hook, you tell React that your component needs to do something after render, including first render. So it can replace both compoentDidMount and ComponentDidupdate.
   
-- Every effect may return a function that cleans up after it.
+- Every effect may return a function that cleans up after it.  React performs the cleanup when the component unmounts. However, as we learned earlier, effects run for every render and not just once. This is why React also cleans up effects from the previous render before running the effects next time.
   
  
   
