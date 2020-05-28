@@ -118,6 +118,10 @@
   
 - Use the Production Build
   
+- If your application renders long lists of data (hundreds or thousands of rows), we recommended using a technique known as “windowing”. This technique only renders a small subset of your rows at any given time, and can dramatically reduce the time it takes to re-render the components as well as the number of DOM nodes created. react-window and react-virtualized are popular windowing libraries.
+  
+- If you know that in some situations your component doesn’t need to update, you can return false from shouldComponentUpdate instead, to skip the whole rendering process, including calling render() on this component and below.
+  
   
   
   
