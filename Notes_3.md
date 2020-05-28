@@ -147,6 +147,8 @@ Only call Hooks from React function components. Don’t call Hooks from regular 
   
 -  unlike this.setState in a class, updating a state variable always replaces it instead of merging it.
   
+- By using useEffect Hook, you tell React that your component needs to do something after render, including first render. So it can replace both compoentDidMount and ComponentDidupdate.
+  
  
   
   
