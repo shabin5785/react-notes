@@ -107,4 +107,6 @@
 - We cannot use a general expression as the React element type. If you do want to use a general expression to indicate the type of the element, just assign it to a capitalized variable first.
   
 - You can pass any JavaScript expression as a prop, by surrounding it with {}. if statements and for loops are not expressions in JavaScript, so they can’t be used in JSX directly. Instead, you can put these in the surrounding code
+  
+- If you pass no value for a prop, it defaults to true.
 
