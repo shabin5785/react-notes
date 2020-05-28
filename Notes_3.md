@@ -92,3 +92,5 @@
 
 - There are similarities between HOCs and a pattern called container components. Container components are part of a strategy of separating responsibility between high-level and low-level concerns. Containers manage things like subscriptions and state, and pass props to components that handle things like rendering UI. HOCs use containers as part of their implementation. You can think of HOCs as parameterized container component definitions. To avoid manual work, You can use hoist-non-react-statics to automatically copy all non-React static methods. Another possible solution is to export the static method separately from the component itself
 
+- While the convention for higher-order components is to pass through all props to the wrapped component, this does not work for refs. That’s because ref is not really a prop — like key, it’s handled specially by React. If you add a ref to an element whose component is the result of a HOC, the ref refers to an instance of the outermost container component, not the wrapped component.The solution for this problem is to use the React.forwardRef API 
+
