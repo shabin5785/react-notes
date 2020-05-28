@@ -145,6 +145,8 @@
 - Only call Hooks at the top level. Don’t call Hooks inside loops, conditions, or nested functions.
 Only call Hooks from React function components. Don’t call Hooks from regular JavaScript functions.
   
+-  unlike this.setState in a class, updating a state variable always replaces it instead of merging it.
+  
  
   
   
