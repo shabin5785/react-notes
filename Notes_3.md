@@ -151,6 +151,8 @@ Only call Hooks from React function components. Don’t call Hooks from regular 
   
 - Every effect may return a function that cleans up after it.  React performs the cleanup when the component unmounts. However, as we learned earlier, effects run for every render and not just once. This is why React also cleans up effects from the previous render before running the effects next time.
   
+- Unlike a React component, a custom Hook doesn’t need to have a specific signature. We can decide what it takes as arguments, and what, if anything, it should return. In other words, it’s just like a normal function. Its name should always start with use so that you can tell at a glance that the rules of Hooks apply to it.
+  
  
   
   
