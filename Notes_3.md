@@ -44,6 +44,6 @@
 - Code-Splitting is a feature supported by bundlers like Webpack, Rollup and Browserify (via factor-bundle) which can create multiple bundles that can be dynamically loaded at runtime.Code-splitting your app can help you “lazy-load” just the things that are currently needed by the user, which can dramatically improve the performance of your app. While you haven’t reduced the overall amount of code in your app, you’ve avoided loading code that the user may never need, and reduced the amount of code needed during the initial load.
 -The best way to introduce code-splitting into your app is through the dynamic import() syntax. When Webpack comes across this syntax, it automatically starts code-splitting your app
 
--The React.lazy function lets you render a dynamic import as a regular component.
+-The React.lazy function lets you render a dynamic import as a regular component.React.lazy and Suspense are not yet available for server-side rendering. If you want to do code-splitting in a server rendered app, we recommend Loadable Components.
 
 
