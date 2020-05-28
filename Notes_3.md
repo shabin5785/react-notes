@@ -111,4 +111,6 @@
 - If you pass no value for a prop, it defaults to true. In general, we don’t recommend not passing a value for a prop, because it can be confused with the ES6 object shorthand
   
 - In JSX expressions that contain both an opening tag and a closing tag, the content between those tags is passed as a special prop: props.children. You can provide more JSX elements as the children. You can pass any JavaScript expression as children, by enclosing it within {}.
+  
+- false, null, undefined, and true are valid children.
 
