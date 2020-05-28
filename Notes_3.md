@@ -71,4 +71,6 @@
 
 - Error boundaries work like a JavaScript catch {} block, but for components. Only class components can be error boundaries. In practice, most of the time you’ll want to declare an error boundary component once and use it throughout your application
 
+-As of React 16, errors that were not caught by any error boundary will result in unmounting of the whole React component tree.We debated this decision, but in our experience it is worse to leave corrupted UI in place than to completely remove it.
+
 
