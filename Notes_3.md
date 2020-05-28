@@ -65,5 +65,8 @@
 	2.Asynchronous code (e.g. setTimeout or requestAnimationFrame callbacks)
 	3.Server side rendering
 	4.Errors thrown in the error boundary itself (rather than its children)
+    
+
+- A class component becomes an error boundary if it defines either (or both) of the lifecycle methods static getDerivedStateFromError() or componentDidCatch(). Use static getDerivedStateFromError() to render a fallback UI after an error has been thrown. Use componentDidCatch() to log error information.
 
 
