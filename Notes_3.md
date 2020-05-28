@@ -142,6 +142,9 @@
   
 - When you call useEffect, you’re telling React to run your “effect” function after flushing changes to the DOM. Effects are declared inside the component so they have access to its props and state. By default, React runs the effects after every render — including the first render.
   
+- Only call Hooks at the top level. Don’t call Hooks inside loops, conditions, or nested functions.
+Only call Hooks from React function components. Don’t call Hooks from regular JavaScript functions.
+  
  
   
   
