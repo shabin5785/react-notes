@@ -140,6 +140,8 @@
   
 - React provides a few built-in Hooks like useState. You can also create your own Hooks to reuse stateful behavior between different components.
   
+- When you call useEffect, you’re telling React to run your “effect” function after flushing changes to the DOM. Effects are declared inside the component so they have access to its props and state. By default, React runs the effects after every render — including the first render.
+  
  
   
   
