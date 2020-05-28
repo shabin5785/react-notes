@@ -86,7 +86,9 @@
 
 - The container components created by HOCs show up in the React Developer Tools like any other component. To ease debugging, choose a display name that communicates that it’s the result of a HOC.
 
-- Don’t Use HOCs Inside the render Method. React’s diffing algorithm (called **reconciliation**) uses component identity to determine whether it should update the existing subtree or throw it away and mount a new one. If the component returned from render is identical (===) to the component from the previous render, React recursively updates the subtree by diffing it with the new one. If they’re not equal, the previous subtree is unmounted completely.Instead, apply HOCs outside the component definition so that the resulting component is created only once. Then, its identity will be consistent across renders.
+- Don’t Use HOCs Inside the render Method. React’s diffing algorithm (called **reconciliation**) uses component identity to determine whether it should update the existing subtree or throw it away and mount a new one. If the component returned from render is identical (===) to the component from the previous render, React recursively updates the subtree by diffing it with the new one. If they’re not equal, the previous subtree is unmounted completely.Instead, apply HOCs outside the component definition so that the resulting component is created only once. Then, its identity will be consistent across renders. In those rare cases where you need to apply a HOC dynamically, you can also do it inside a component’s lifecycle methods or its constructor.
+
+
 
 - There are similarities between HOCs and a pattern called container components. Container components are part of a strategy of separating responsibility between high-level and low-level concerns. Containers manage things like subscriptions and state, and pass props to components that handle things like rendering UI. HOCs use containers as part of their implementation. You can think of HOCs as parameterized container component definitions.
 
