@@ -47,3 +47,6 @@
 -The React.lazy function lets you render a dynamic import as a regular component.React.lazy and Suspense are not yet available for server-side rendering. If you want to do code-splitting in a server rendered app, we recommend Loadable Components. The lazy component should then be rendered inside a Suspense component, which allows us to show some fallback content (such as a loading indicator) while we’re waiting for the lazy component to load.
 
 
+-If the other module fails to load (for example, due to network failure), it will trigger an error. You can handle these errors to show a nice user experience and manage recovery with **Error Boundaries**. Once you’ve created your Error Boundary, you can use it anywhere above your lazy components to display an error state when there’s a network error
+
+
