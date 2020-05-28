@@ -49,6 +49,6 @@
 
 -If the other module fails to load (for example, due to network failure), it will trigger an error. You can handle these errors to show a nice user experience and manage recovery with **Error Boundaries**. Once you’ve created your Error Boundary, you can use it anywhere above your lazy components to display an error state when there’s a network error
 
-
+- A good place for code splitting and lazy loading is with routes.
 
 
