@@ -100,3 +100,5 @@
 
 - Fundamentally, JSX just provides syntactic sugar for the React.createElement(component, props, ...children) function.
 
+- Since JSX compiles into calls to React.createElement, the React library must also always be in scope from your JSX code
+
