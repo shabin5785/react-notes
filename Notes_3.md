@@ -60,4 +60,10 @@
 ### Error Boundary
 - A JavaScript error in a part of the UI shouldn’t break the whole app. Error boundaries are React components that catch JavaScript errors anywhere in their child component tree, log those errors, and display a fallback UI instead of the component tree that crashed. Error boundaries catch errors during rendering, in lifecycle methods, and in constructors of the whole tree below them.
 
+- Error boundaries do not catch errors for:
+	1.Event handlers (learn more)
+	2.Asynchronous code (e.g. setTimeout or requestAnimationFrame callbacks)
+	3.Server side rendering
+	4.Errors thrown in the error boundary itself (rather than its children)
+
 
