@@ -38,3 +38,6 @@
 	2.Find a common owner component (a single component above all the components that need the state in the 	 hierarchy).
 	3.Either the common owner or another component higher up in the hierarchy should own the state.
 	4.If you can’t find a component where it makes sense to own the state, create a new component solely for holding the state and add it somewhere in the hierarchy above the common owner component.
+    
+    
+  - Code-Splitting is a feature supported by bundlers like Webpack, Rollup and Browserify (via factor-bundle) which can create multiple bundles that can be dynamically loaded at runtime.
