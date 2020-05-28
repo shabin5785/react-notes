@@ -80,5 +80,5 @@
 ### Higher Order Component
 - a higher-order component is a function that takes a component and returns a new component. Whereas a component transforms props into UI, a higher-order component transforms a component into another component.
 
-- Resist the temptation to modify a component’s prototype (or otherwise mutate it) inside a HOC.
+- Resist the temptation to modify a component’s prototype (or otherwise mutate it) inside a HOC. Instead of mutation, HOCs should use composition, by wrapping the input component in a container component:
 
