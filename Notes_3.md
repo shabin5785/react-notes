@@ -57,3 +57,7 @@
 -  Context is designed to share data that can be considered “global” for a tree of React components, such as the current authenticated user, theme, or preferred language
 
 
+### Error Boundary
+- A JavaScript error in a part of the UI shouldn’t break the whole app.
+
+
