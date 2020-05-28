@@ -108,5 +108,5 @@
   
 - You can pass any JavaScript expression as a prop, by surrounding it with {}. if statements and for loops are not expressions in JavaScript, so they can’t be used in JSX directly. Instead, you can put these in the surrounding code
   
-- If you pass no value for a prop, it defaults to true.
+- If you pass no value for a prop, it defaults to true. In general, we don’t recommend not passing a value for a prop, because it can be confused with the ES6 object shorthand
 
