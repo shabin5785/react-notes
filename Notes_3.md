@@ -149,6 +149,8 @@ Only call Hooks from React function components. Don’t call Hooks from regular 
   
 - By using useEffect Hook, you tell React that your component needs to do something after render, including first render. So it can replace both compoentDidMount and ComponentDidupdate.
   
+- Every effect may return a function that cleans up after it.
+  
  
   
   
