@@ -122,6 +122,10 @@
   
 - If you know that in some situations your component doesn’t need to update, you can return false from shouldComponentUpdate instead, to skip the whole rendering process, including calling render() on this component and below.
   
+### Portals
+ 
+ - Portals provide a first-class way to render children into a DOM node that exists outside the DOM hierarchy of the parent component.
+  
   
   
   
