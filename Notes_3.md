@@ -73,4 +73,5 @@
 
 -As of React 16, errors that were not caught by any error boundary will result in unmounting of the whole React component tree.We debated this decision, but in our experience it is worse to leave corrupted UI in place than to completely remove it.
 
+- React components are declarative and specify what should be rendered. try / catch is great but it only works for imperative code
 
